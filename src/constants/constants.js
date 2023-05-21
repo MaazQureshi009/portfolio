@@ -1,0 +1,37 @@
+export const projects = [
+  {
+    title: 'E-Commerce',
+    description: "Using React.js, Redux & Firebase I've build a Full Stack Amazon Clone. This app support user authentication using firebase. Users are able to create a new account using their email address and can then sign in.",
+      image: '/images/1.png',
+      tags: ['React.js', 'Redux', 'Firebase'],
+    source: 'https://fir-3471e.firebaseapp.com/',
+    visit: 'https://github.com/MaazQureshi009/amazon',
+    id: 0,
+  },
+  {
+    title: 'Restaurant',
+    description:"This is a restaurant app created with React JS is designed to be responsive, adapting to any screen size or device. It also features interactive menus, providing customers with a seamless dining experience.",
+    image: '/images/2.png',
+    tags: ['React.js'],
+    source: 'https://itsrestaurant.netlify.app/',
+    visit: 'https://github.com/MaazQureshi009/Restaurant',
+    id: 1,
+  },
+  {
+    title: 'Textify',
+    description: "This text manipulation tool allows users to convert text to uppercase or lowercase, copy text, and remove extra spaces with ease. It streamlines the text editing process, making it simple to modify and format text according to specific needs.",
+      image: '/images/3.png',
+      tags: ['React.js'],
+    source: 'https://maazqureshi009.github.io/Textify-React/',
+    visit: 'https://github.com/MaazQureshi009/Textify-React',
+    id: 2,
+  },
+  {
+    title: 'NewsDaily',
+    description: "This news web app utilizes the News API to display the latest news from various sources & different categories. With user-friendly navigation and personalized preferences, users can easily browse news categories and read articles that interest them.",
+    image: '/images/4.png',
+    tags: ['React.js', 'News Api'],
+    visit: 'https://github.com/MaazQureshi009/NewsDaily',
+    id: 3,
+  },
+];
