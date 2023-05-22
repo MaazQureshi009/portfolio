@@ -7,7 +7,7 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   const handleWhatsAppClick = () => {
-    const phoneNumber = '8369105182';
+    const phoneNumber = '+918369105182';
   
     window.location.href = `https://api.whatsapp.com/send?phone=${phoneNumber}`;
   };
