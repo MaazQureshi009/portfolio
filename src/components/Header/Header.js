@@ -7,7 +7,7 @@ import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './Heade
 
 const Header = () =>  {
   const handleWhatsAppClick = () => {
-    const phoneNumber = '8369105182';
+    const phoneNumber = '+918369105182';
   
     window.location.href = `https://api.whatsapp.com/send?phone=${phoneNumber}`;
   };
