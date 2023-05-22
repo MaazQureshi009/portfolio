@@ -11,7 +11,9 @@ const Hero = () => (
       Hi, I'm Maaz Qureshi<br />
       A Front-End Web Developer
     </SectionTitle>
+    <a href="Resume.pdf">
     <Button>Download CV</Button>
+    </a>
   </LeftSection>
   </Section>
 );
