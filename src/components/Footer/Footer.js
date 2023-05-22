@@ -1,10 +1,16 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import {BiPhoneCall, BiMailSend} from 'react-icons/bi'
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineWhatsApp } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
+  const handleWhatsAppClick = () => {
+    const phoneNumber = '8369105182';
+  
+    window.location.href = `https://api.whatsapp.com/send?phone=${phoneNumber}`;
+  };
   return (
     <FooterWrapper>
       <LinkList>
@@ -27,6 +33,9 @@ const Footer = () => {
       </SocialIcons>
       <SocialIcons href='https://www.instagram.com/maazqureshi009/'>
         <AiFillInstagram size="3rem"/>
+      </SocialIcons>
+      <SocialIcons onClick={handleWhatsAppClick}>
+        <AiOutlineWhatsApp size="3rem"/>
       </SocialIcons>
       </SocialContainer>
       </SocialIconsContainer>
