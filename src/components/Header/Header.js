@@ -6,11 +6,7 @@ import { DiCssdeck } from 'react-icons/di';
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
 const Header = () =>  {
-  const handleWhatsAppClick = () => {
-    const phoneNumber = '+918369105182';
   
-    window.location.href = `https://api.whatsapp.com/send?phone=${phoneNumber}`;
-  };
   return (
   <Container>
     <Div1>
@@ -44,7 +40,7 @@ const Header = () =>  {
       <SocialIcons href='https://www.linkedin.com/in/maazqureshi009/'>
         <AiFillLinkedin size="3rem"/>
       </SocialIcons>
-      <SocialIcons onClick={handleWhatsAppClick}>
+      <SocialIcons href='https://wa.me/918369105182'>
         <AiOutlineWhatsApp size="3rem"/>
       </SocialIcons>
     </Div3>

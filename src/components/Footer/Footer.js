@@ -6,11 +6,6 @@ import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
-  const handleWhatsAppClick = () => {
-    const phoneNumber = '+918369105182';
-  
-    window.location.href = `https://api.whatsapp.com/send?phone=${phoneNumber}`;
-  };
   return (
     <FooterWrapper>
       <LinkList>
@@ -34,7 +29,7 @@ const Footer = () => {
       <SocialIcons href='https://www.instagram.com/maazqureshi009/'>
         <AiFillInstagram size="3rem"/>
       </SocialIcons>
-      <SocialIcons onClick={handleWhatsAppClick}>
+      <SocialIcons href='https://wa.me/918369105182'>
         <AiOutlineWhatsApp size="3rem"/>
       </SocialIcons>
       </SocialContainer>
